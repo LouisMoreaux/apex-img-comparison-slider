@@ -1,0 +1,55 @@
+img-comparison-slider.rendered img {
+    max-inline-size: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+img-comparison-slider {
+    --caption-bg: #fff;
+    --caption-border: 1px solid #c0c0c0;
+    --caption-border-radius: 12px;
+    --caption-color: #2e3452;
+    --caption-opacity: 0.8;
+    --caption-padding: 12px;
+    --caption-line-height: 1rem;
+}
+
+img-comparison-slider figcaption.caption-position--top {
+    --caption-top: 12px;
+}
+
+img-comparison-slider figcaption.caption-position--middle {
+    --caption-bottom: calc(calc(50% - calc(var(--caption-line-height) / 2)) - var(--caption-padding));
+}
+
+img-comparison-slider figcaption.caption-position--bottom {
+    --caption-bottom: 12px;
+}
+
+
+.before,
+.after {
+    margin: 0;
+}
+
+.before figcaption,
+.after figcaption {
+    position: absolute;
+    line-height: var(--caption-line-height);
+    background: var(--caption-bg);
+    border: var(--caption-border);
+    border-radius: var(--caption-border-radius);
+    color: var(--caption-color);
+    opacity: var(--caption-opacity);
+    padding: var(--caption-padding);
+    top: var(--caption-top);
+    bottom: var(--caption-bottom);
+  }
+
+  .before figcaption {
+    left: 12px;
+  }
+
+  .after figcaption {
+    right: 12px;
+  }

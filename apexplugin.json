@@ -1,0 +1,36 @@
+{
+    "name": "Image Comparaison",
+    "version": "1.0",
+    "description": "Slider Component for Comparing Images (Before and After).",
+    "keywords": ["image", "comparison","slider"],
+    "homepage": "https://github.com/LouisMoreaux/apex-img-comparison-slider",
+    "bugs": {
+      "url": "https://github.com/LouisMoreaux/apex-img-comparison-slider/issues",
+      "email": "moreaux.louis@gmail.com"
+    },
+    "license": "MIT",
+    "commercial": "No",
+    "author": {
+      "name": "Louis Moreaux",
+      "email": "moreaux.louis@gmail.com",
+      "url": "https://lmoreaux.hashnode.dev/",
+      "twitter": "moreaux_louis",
+      "donationUrl": ""
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/LouisMoreaux/apex-img-comparison-slider.git"
+    },
+    "oracle": {
+      "versions": ["23.2.0", "21.1.0", "19.1.0"],
+      "apex": {
+        "versions": ["24.1.0"],
+        "plugin": {
+          "internalName": "APEX.LMOREAUX.IMAGE_COMPARISON",
+          "type": "template component",
+          "demo": "https://apex.oracle.com/pls/apex/r/louis/template-component/image-comparison",
+          "previewImage": "https://github.com/LouisMoreaux/apex-img-comparison-slider/blob/main/assets/apex-img-comparison-slider.gif?raw=true"
+        }
+      }
+    }
+  }

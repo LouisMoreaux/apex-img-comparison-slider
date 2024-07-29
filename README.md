@@ -1,8 +1,10 @@
-# apex-img-comparaison-slider
+# apex-img-comparison-slider
 Oracle APEX plug-in useful to compare two images
 
+![Screen recording showing the APEX image comparison plug-in](https://github.com/LouisMoreaux/apex-img-comparison-slider/blob/main/assets/apex-omg-comparison-slider.gif?raw=true "Screen recording showing the APEX image comparison plug-in")
+
 ## Installation
-Import the file located at plug-in/template_component_plugin_apex_lmoreaux_image-comparaison-slider.sql
+Import the file located at plug-in/template_component_plugin_apex_lmoreaux_image-comparison-slider.sql
 
 ## configuration
 <table>
@@ -68,5 +70,5 @@ Import the file located at plug-in/template_component_plugin_apex_lmoreaux_image
 </table>
 
 ## Demo
-A live demo can be found at [https://apex.oracle.com/pls/apex/r/louis/template-component/image-comparaison](https://apex.oracle.com/pls/apex/r/louis/template-component/image-comparaison)
+A live demo can be found at [https://apex.oracle.com/pls/apex/r/louis/template-component/image-comparison](https://apex.oracle.com/pls/apex/r/louis/template-component/image-comparison)
 
