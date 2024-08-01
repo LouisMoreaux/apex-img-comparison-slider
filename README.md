@@ -72,3 +72,5 @@ Import the file located at plug-in/template_component_plugin_apex_lmoreaux_image
 ## Demo
 A live demo can be found at [https://apex.oracle.com/pls/apex/r/louis/template-component/image-comparison](https://apex.oracle.com/pls/apex/r/louis/template-component/image-comparison)
 
+## Credit
+Based on the open source library [img-comparison-slider](https://github.com/sneas/img-comparison-slider)
